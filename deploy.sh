@@ -4,7 +4,7 @@ git config user.email dachuilee@163.com
 yarn docs:build
 git add .
 git commit -m "edit press"
-git push git@github_dachui:dachuilee/vuepress.git master:masteryarn 
+git push git@github_dachui:dachuilee/vuepress.git master
 
 
 cd docs/.vuepress/dist
