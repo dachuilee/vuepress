@@ -5,8 +5,9 @@ git add -A
 git commit -m "edit press"
 yarn docs:build
 git push git@github_dachui:dachuilee/vuepress.git master:master
-cd docs/.vuepress/dist
 
+
+cd docs/.vuepress/dist
 git init
 git config user.name dachuilee
 git config user.email dachuilee@163.com
