@@ -1,19 +1,17 @@
-#!/usr/bin/env sh
-
-# 确保脚本抛出遇到的错误
 set -e
-
-# 生成静态文件
-npm run docs:build
-
-# 进入生成的文件夹
+git config user.name dachuilee
+git config user.email dachuilee@163.com
+git add -A
+git commit -m "edit press"
+yarn docs:build
+git push git@github_dachui:dachuilee/vuepress.git master
 cd docs/.vuepress/dist
 
 git init
+git config user.name dachuilee
+git config user.email dachuilee@163.com
 git add -A
 git commit -m 'deploy'
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO> git@github.com:dachuilee/vuepress.git
-git push -f git@github.com:dachuilee/vuepress.git master:gh-pages
+git push -f git@github_dachui:dachuilee/vuepress.git master:gh-pages
 
 cd -
