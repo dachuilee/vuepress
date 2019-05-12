@@ -1,10 +1,11 @@
-{ 
+{
   "scripts": {
     "serve": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.47",
     "vuepress": "^1.0.0-alpha.47"
   }
 }

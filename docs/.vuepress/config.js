@@ -10,4 +10,22 @@ module.exports = {
       { rel: "icon", href: "https://github.githubassets.com/favicon.ico" }
     ]
   ],
+  markdown:{
+    lineNumbers: true,
+  },
+  plugins: ['@vuepress/active-header-links', '@vuepress/last-updated'],
+  themeConfig: {
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'About', link: '/about/' },
+      { text: 'Github', link: 'https://github.com/dachuilee/vuepress/tree/master/docs' },
+    ],
+    lastUpdated: "更新于",
+    displayAllHeaders: true,
+    docsRepo: 'dachuilee/vuepress',
+    docsDir: 'docs',
+    docsBranch: 'master',
+    editLinks: true,
+    editLinkText: 'improve my page',
+  }
 }
