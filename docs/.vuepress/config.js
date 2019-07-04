@@ -22,7 +22,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "About", link: "/about/" },
+      // { text: "About", link: "/about/" },
       {
         text: "Github",
         link: "https://github.com/dachuilee/vuepress/tree/master/docs"
@@ -34,25 +34,25 @@ module.exports = {
     docsDir: "docs",
     docsBranch: "master",
     editLinks: true,
-    editLinkText: "improve my page",
+    editLinkText: "edit page",
     sidebar: [
       {
-        title: "foo",
-        path: "/foo/",
-        children: ["/foo/","/foo/one", "/foo/two"]
+        title: "资料view",
+        path: "/source/",
+        children: ["/source/"]
       },
       {
-        title: "bar",
-        path: "/bar/",
-        children: ["/bar/", "/bar/three", "/bar/four"]
+        title: "css",
+        path: "/css/",
+        children: ["/css/", "/css/two", "/css/three"]
       },
       {
-        title: "fallback",
-        children: ["/about/"]
+        title: "html",
+        children: ["/html/"]
       },
       {
-        title: "重学前端",
-        children: ["/重学前端/"]
+        title: "javascript",
+        children: ["/javascript/"]
       }
     ]
   },
