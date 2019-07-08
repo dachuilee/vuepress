@@ -22,7 +22,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      // { text: "About", link: "/about/" },
+      { text: "JavaScript", link: "/javascript/" },
       {
         text: "Github",
         link: "https://github.com/dachuilee/vuepress/tree/master/docs"
@@ -53,6 +53,10 @@ module.exports = {
       {
         title: "javascript",
         children: ["/javascript/"]
+      },
+      {
+        title: "linux",
+        children: ["/linux/"]
       }
     ]
   },
