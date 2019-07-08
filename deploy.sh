@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 set -e
+git add .
+git commit -m "update vuepress"
+git push
 npm run build
 
 cd docs/.vuepress/dist
