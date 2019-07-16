@@ -64,7 +64,7 @@ module.exports = {
       },
       {
         title:"php",
-        children: ["/php/","/php_pdo"]
+        children: ["/php/","/php/php_pdo"]
       }
     ]
   },
