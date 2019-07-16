@@ -57,6 +57,14 @@ module.exports = {
       {
         title: "linux",
         children: ["/linux/"]
+      },
+      {
+        title:"database",
+        children: ["/database/"]
+      },
+      {
+        title:"php",
+        children: ["/php/","/php_pdo"]
       }
     ]
   },
