@@ -52,7 +52,7 @@ module.exports = {
       },
       {
         title: "javascript",
-        children: ["/javascript/"]
+        children: ["/javascript/","/javascript/youdontknow"]
       },
       {
         title: "linux",
